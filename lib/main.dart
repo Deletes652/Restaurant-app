@@ -382,7 +382,7 @@ class _FoodOrderPageState extends State<FoodOrderPage>
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('ร้านอาหารดีลิเชียส'),
+                      Text('ร้านอาหาร'),
                       Text(
                         'Delicious Restaurant',
                         style: TextStyle(
@@ -1352,7 +1352,6 @@ class _FoodOrderPageState extends State<FoodOrderPage>
                                 fontWeight: FontWeight.w500,
                               ),
                               overflow: TextOverflow.ellipsis,
-                              softWrap: true,
                             ),
                           ),
                         ],
